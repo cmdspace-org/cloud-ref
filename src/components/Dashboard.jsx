@@ -35,7 +35,7 @@ const Dashboard = () => {
   return (
     <div>
         <h1 className="header"> DASHBOARD PAGE</h1>
-        <form onSubmit={handleSubmit}>
+        <form autoComplete="off" onSubmit={handleSubmit}>
         <FormControl>
   <InputLabel htmlFor="input-name">Name</InputLabel>
   <TextField id="input-name" variant="standard" type="text" aria-describedby="my-helper-text1" name="name" value={inputs.name} onChange={handleInputChange} />
@@ -46,7 +46,7 @@ const Dashboard = () => {
   <TextField id="input-password" variant="standard" type="password" aria-describedby="my-helper-text2" name="password" value={inputs.password} onChange={handleInputChange} />
   <FormHelperText id="my-helper-text2">Fill your password</FormHelperText>
 </FormControl>
-<Button variant="outlined" color="success">Save</Button>
+<Button type="submit" variant="outlined" color="success">Save</Button>
 <Button variant="outlined" color="error">Clear</Button>
 </form>
 <div>
