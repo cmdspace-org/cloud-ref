@@ -30,41 +30,24 @@ function Navbars() {
           <MenuItem
             component={<Link to="/" className="link" />}
             className="menu1"
-            icon={<MenuRoundedIcon />}
+            
           >
             <h2>QUICKPAY</h2>
           </MenuItem>
           <MenuItem
             component={<Link to="dashboard" className="link" />}
-            icon={<GridViewRoundedIcon />}
+            
           >
-            Dashboard
+            Credentials
           </MenuItem>
-          <MenuItem icon={<ReceiptRoundedIcon />}> Invoices </MenuItem>
-          <SubMenu label="Charts" icon={<BarChartRoundedIcon />}>
-            <MenuItem icon={<TimelineRoundedIcon />}> Timeline Chart </MenuItem>
-            <MenuItem icon={<BubbleChartRoundedIcon />}>Bubble Chart</MenuItem>
-          </SubMenu>
-          <SubMenu label="Wallets" icon={<WalletRoundedIcon />}>
-            <MenuItem icon={<AccountBalanceRoundedIcon />}>
-              Current Wallet
-            </MenuItem>
-            <MenuItem icon={<SavingsRoundedIcon />}>Savings Wallet</MenuItem>
-          </SubMenu>
+          
           <MenuItem
             component={<Link to="transaction" className="link" />}
-            icon={<MonetizationOnRoundedIcon />}
+            
           >
-            Transactions
+            Database
           </MenuItem>
-          <SubMenu label="Settings" icon={<SettingsApplicationsRoundedIcon />}>
-            <MenuItem icon={<AccountCircleRoundedIcon />}> Account </MenuItem>
-            <MenuItem icon={<ShieldRoundedIcon />}> Privacy </MenuItem>
-            <MenuItem icon={<NotificationsRoundedIcon />}>
-              Notifications
-            </MenuItem>
-          </SubMenu>
-          <MenuItem icon={<LogoutRoundedIcon />}> Logout </MenuItem>
+          
         </Menu>
       </Sidebar>
       <section>

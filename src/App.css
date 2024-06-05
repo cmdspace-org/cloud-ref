@@ -5,7 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
   background: #ffffff;
-  font-size: 20px;
+  font-size: 16px;
 }
 .app {
   background: #a8d5e5;
@@ -13,7 +13,7 @@ body {
 h1 {
   color: #165a72;
   margin: 50px auto;
-  font-size: 40px;
+  font-size: 30px;
 }
 .menu1 {
   margin-bottom: 40px;
